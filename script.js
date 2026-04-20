@@ -1,5 +1,16 @@
 // Menu Toggle para mobile
 document.addEventListener('DOMContentLoaded', function() {
+    // Remover o loader após o carregamento da página
+    const pageLoader = document.getElementById('pageLoader');
+    if (pageLoader) {
+        setTimeout(() => {
+            pageLoader.classList.add('hidden');
+            setTimeout(() => {
+                pageLoader.style.display = 'none';
+            }, 500);
+        }, 300);
+    }
+
     const menuToggle = document.getElementById('menuToggle');
     const navMenu = document.getElementById('navMenu');
     const navLinks = document.querySelectorAll('.nav-link');
