@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 currentImageIndex = allImages.indexOf(imgInCard);
                 // Enviar direto para WhatsApp ao clicar na imagem
                 if (allImages[currentImageIndex]) {
-                    const phoneNumber = '558599004961'; // ALTERE PARA SEU NÚMERO
+                    const phoneNumber = '558599372835'; // ALTERE PARA SEU NÚMERO
                     const img = allImages[currentImageIndex];
                     const imageName = img.alt;
                     const message = `Olá! Tenho interesse neste produto: *${imageName}* 📸`;
