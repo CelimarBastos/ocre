@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             e.stopPropagation();
             if (allImages[currentImageIndex]) {
-                const phoneNumber = '558599004961'; // ALTERE PARA SEU NÚMERO
+                const phoneNumber = '558599372835'; // ALTERE PARA SEU NÚMERO
                 const img = allImages[currentImageIndex];
                 const imageName = img.alt;
                 const message = `Olá! Tenho interesse neste produto: *${imageName}* 📸`;
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Atualizar número do WhatsApp
     const whatsappBtn = document.querySelector('.whatsapp-btn');
     if (whatsappBtn) {
-        const phoneNumber = '558599004961'; // ALTERE PARA SEU NÚMERO
+        const phoneNumber = '558599372835'; // ALTERE PARA SEU NÚMERO
         whatsappBtn.href = `https://wa.me/${phoneNumber}?text=Olá, gostaria de pedir um orçamento!`;
     }
 
